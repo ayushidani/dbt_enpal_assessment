@@ -1,0 +1,19 @@
+# dbt artifacts
+target/
+logs/
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.spyderproject
+.spyproject

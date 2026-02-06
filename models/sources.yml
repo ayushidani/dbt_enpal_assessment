@@ -6,3 +6,13 @@ sources:
     schema: public
     tables:
       - name: activity
+
+  - name: pipedrive
+    database: postgres
+    schema: public
+    tables:
+      - name: activity  
+      - name: deal_changes
+      - name: stages  
+      - name: activity_types
+      - name: users
